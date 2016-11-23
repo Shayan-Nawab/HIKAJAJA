@@ -1,5 +1,10 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="oled_drawtext" id="30" x="152" y="117">
     <field name="TEXT">HI BRO</field>
+    <next>
+      <block type="oled_drawtext" id="40">
+        <field name="TEXT">BYE BRO</field>
+      </block>
+    </next>
   </block>
 </xml>
