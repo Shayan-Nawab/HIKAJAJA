@@ -4,6 +4,25 @@
     <next>
       <block type="oled_drawtext" id="40">
         <field name="TEXT">BYE BRO</field>
+        <next>
+          <block type="oled_setcursor" id="86" inline="true">
+            <value name="STARTX">
+              <block type="math_number" id="99">
+                <field name="NUM">14</field>
+              </block>
+            </value>
+            <value name="STARTY">
+              <block type="math_number" id="153">
+                <field name="NUM">26</field>
+              </block>
+            </value>
+            <next>
+              <block type="oled_drawtext" id="226">
+                <field name="TEXT">HI 8) 8)</field>
+              </block>
+            </next>
+          </block>
+        </next>
       </block>
     </next>
   </block>
